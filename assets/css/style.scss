@@ -1116,26 +1116,6 @@ a.menu-toggle:hover {
 	color:#000;
 }
 
-@media screen and (max-width: 600px) {
-	a.menu-toggle,
-	.main-navigation.toggled .nav-menu {
-		display: block;
-	}
-
-	.site-title {
-		font-size: 2em;
-		margin-bottom: 0;
-	}
-
-	.main-navigation ul {
-		display: none;
-	}
-
-	.site-branding {
-		width: 90%;
-	}
-}
-
 @media screen and (max-width: 1280px) {
 	.site-content {
 		width: 90%;
@@ -1151,6 +1131,12 @@ a.menu-toggle:hover {
 	.site-main,
 	.content-area {
 		width: 100%;
+	}
+
+	.page-content,
+	.entry-content,
+	.entry-summary {
+		margin: 0;
 	}
 
 	.site-content .widget-area {
@@ -1174,5 +1160,30 @@ a.menu-toggle:hover {
 
 	.post-list {
 		margin: 0;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	a.menu-toggle,
+	.main-navigation.toggled .nav-menu {
+		display: block;
+	}
+
+	.site-title {
+		font-size: 2em;
+		margin-bottom: 0;
+	}
+
+	.main-navigation ul {
+		display: none;
+	}
+
+	.site-branding {
+		width: 90%;
+	}
+
+	.site-content {
+		padding: 0;
+		width: 93%;
 	}
 }
