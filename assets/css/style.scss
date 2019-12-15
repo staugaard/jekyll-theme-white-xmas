@@ -1118,13 +1118,21 @@ a.menu-toggle:hover {
 	.main-navigation.toggled .nav-menu {
 		display: block;
 	}
-	
+
+	.site-title {
+		font-size: 2em;
+	}
+
 	.site-description {
 		font-size: 2em;
 	}
 
 	.main-navigation ul {
 		display: none;
+	}
+
+	.site-branding {
+		width: 90%;
 	}
 }
 
