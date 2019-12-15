@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+<article>
+  <header class="entry-header">
+    <h2 class="entry-title">{{ page.title | escape }}</h2>
+    <div class="entry-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.white-xmas.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+    </div><!-- .entry-meta -->
+  </header><!-- .entry-header -->
+
+  <div class="entry-content">
+    {{ content }}
+  </div><!-- .entry-content -->
+  <footer class="entry-meta">
+  </footer><!-- .entry-meta -->
+</article><!-- #post-## -->
