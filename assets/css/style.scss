@@ -1123,10 +1123,6 @@ a.menu-toggle:hover {
 		font-size: 2em;
 	}
 
-	.site-description {
-		font-size: 2em;
-	}
-
 	.main-navigation ul {
 		display: none;
 	}
@@ -1160,6 +1156,11 @@ a.menu-toggle:hover {
 
 	.site-branding {
 		background: none;
+		min-height: 0;
 	}
-	
+
+	.site-description {
+		padding: 0;
+		font-size: 2em;
+	}
 }
