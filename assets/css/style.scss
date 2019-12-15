@@ -705,6 +705,10 @@ a.post-edit-link {
 			margin: 0;
 		}
 
+		.post-meta {
+			color: #777;
+		}
+
 	}
 }
 
@@ -1166,5 +1170,9 @@ a.menu-toggle:hover {
 
 	.site-description {
 		font-size: 2em;
+	}
+
+	.post-list {
+		margin: 0;
 	}
 }
